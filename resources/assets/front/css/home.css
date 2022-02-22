@@ -1,0 +1,32 @@
+body {
+  /* background: #333; */
+  color: #fff;
+  font-family: Poppins-Regular;
+
+}
+
+.navbar {
+  border-bottom: black 3px solid;
+  opacity: 0.8;
+}
+
+
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.my-card
+{
+    position:absolute;
+    left:40%;
+    top:-20px;
+    border-radius:50%;
+}
+.listItem{
+ list-style: none;
+  text-align: right;
+}
+
