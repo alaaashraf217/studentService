@@ -33,12 +33,12 @@ class User extends Authenticatable
         return $this->belongsTo(Year::class);
     }
     public function Table(){
-        return $this->belongsTo(Table::class,'year_id','id');
+        return $this->belongsTo(Table::class);
     }
     public function Exam(){
-        return $this->belongsTo(Exam::class,'year_id','id');
+        return $this->belongsTo(Exam::class);
     } public function lastexam(){
-        return $this->belongsTo(lastexam::class,'year_id','id');
+        return $this->belongsTo(lastexam::class);
     }
     public function faculty(){
         return $this->belongsTo(Faculty::class);

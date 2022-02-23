@@ -11,83 +11,10 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
       crossorigin="anonymous">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
       crossorigin="anonymous">
+      <link rel="stylesheet" href="/front/css/home.css">
 <style>
-body {
-        /* background: #333; */
-        color: white;
-        font-family: Poppins-Regular;
-    }
-
-    .navbar {
-        border-bottom: black 3px solid;
-        opacity: 0.8;
-    }
-
-    @font-face {
-  font-family: Poppins-Regular;
-  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
-}
-
-
-
-
-
-    #home-section .dark-overlay
-     {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-    }
-    .my-card
-    {
-        position:absolute;
-        left:40%;
-        top:-20px;
-        border-radius:50%;
-    }  
- 
-    .listItem{
-        list-style: none;
-        text-align: right;
-    }
-    .dropbtn {
-        background-color: #ffffff;
-        color: rgb(150, 6, 6);
-        padding: 10px;
-        padding-bottom: 14px;
-        font-size: 26px;
-        border: none;
-        cursor: pointer;
-    }
-
-
-    .dropdown {
-        position:relative;
-        display: inline-block;
-    }
-
-    .dropdown-content {
-        display: none;
-        padding-top: -20px;
-        position: absolute;
-        background-color: #ffffff;
-        min-width: 160px;
-        /*overflow: auto;*/
-        z-index: 1;
-    }
-
-    .dropdown-content a {
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-    }
-
-
-    .show {display: block;}
 </style>  <title>student_service</title>
 </head>
 

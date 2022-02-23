@@ -12,6 +12,7 @@ use App\Models\Post;
 use App\Models\Photo;
 use App\Models\Patient;
 use App\Models\Lastexam;
+use App\Models\Admin;
 use Illuminate\Http\Request;
 
 
@@ -52,10 +53,10 @@ public function tableExam($year_id,$department_id,$faculty_id){
 
 }
 public function complain(){
-    $officials=Official::pluck('name', 'id');
+    $admins=Admin::pluck('name', 'id');
 
 
-return view('complain',compact('officials'));}
+return view('complain',compact('admins'));}
 
 
 public function storeComplain(request  $request){
@@ -65,7 +66,7 @@ public function storeComplain(request  $request){
         ,'email'=>$request->email
         ,'phone'=>$request->phone
         ,'message'=>$request->message
-        ,'official_id'=>$request->official_id
+        ,'admin_id'=>$request->admin_id
 
     ]);
     return view('success');

@@ -30,6 +30,9 @@ class CreateUsersTable extends Migration
             $table->foreign('department_id')->references('id')->on('departments')->onDelete('cascade');
             $table->unsignedBigInteger('year_id');
             $table->foreign('year_id')->references('id')->on('years')->onDelete('cascade');
+            $table->unsignedBigInteger('faculty_id')->nullable();
+
+            $table->foreign('faculty_id')->references('id')->on('faculties')->onDelete('cascade');
 
             $table->rememberToken();
             $table->timestamps();

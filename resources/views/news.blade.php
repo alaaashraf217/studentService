@@ -4,45 +4,9 @@
 
 
 @endsection
+<link rel="stylesheet" href="/front/css/news.css">
 
 
-
-
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
-
-body {
-    /* background-color: #eee; */
-    /* font-family: 'Manrope', sans-serif */
-}
-
-.news-card {
-    border-radius: 8px
-border-style: groove;
-}
-
-.news-feed-image {
-    border-radius: 8px;
-    width: 400px;
-    height:200px
-}
-
-.date {
-    font-size: 12px
-}
-.news-feed-title{
-    font-size:40px;
-}
-.news-feed-text{
-    font-size:20px;
-    margin-top:10px;
-}
-
-
-
-
-
-    </style>
  <body>
  <div class="container-fluid mt-5 mb-5">
      <h1 class="display-3 text-dark text-center p-5" id="table_name">اخر الاخبار</h1>

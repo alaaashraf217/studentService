@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Contact extends Model
 {
-    protected $fillable = ['name', 'phone', 'email', 'message','official_id'];
+    protected $fillable = ['name', 'phone', 'email', 'message','admin_id'];
     public function Official(){
         return $this->belongsTo(Official::class,'official_id','id');
     }

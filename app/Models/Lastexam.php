@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Lastexam extends Model
 {
     use HasFactory;
+    use HasFactory;
     protected $fillable=['id','title','year_id','department_id','service_id','file','faculty_id'];
     public $timestamps = false;
 
@@ -15,14 +16,13 @@ class Lastexam extends Model
 
 
     public function users(){
-        return $this->hasMany('App\Models\User','year_id');
+        return $this->hasMany('App\Models\User');
     }
      public function service (){
-        return $this->belongsTo('App\Models\Service','year_id');
+        return $this->belongsTo('App\Models\Service');
     } 
     public function faculty()
     {
         return $this->belongsTo(Faculty::class);
     }
-
 }
